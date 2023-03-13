@@ -6,6 +6,10 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
+@app.route("/", methods = ["GET"])
+def foo():
+    return "HELLO WORLD"
+
 @app.route("/send-message", methods = ["POST"])
 def userMessage():
     message = request.json.get("message")
