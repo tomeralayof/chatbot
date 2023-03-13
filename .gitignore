@@ -1,3 +1,5 @@
 #.gitignore
 __pycache__
 venv
+sentence_tokenizer.pickle
+db.sqlite3
