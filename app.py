@@ -1,10 +1,8 @@
+#app.py
 from flask import Flask
 
 app = Flask(__name__)
 
 @app.route("/")
-def home():
-    return "flask heruko app"
-
-if __name__ == "__main__":
-    app.run()
+def index():
+    return "Flask Heroku App"
