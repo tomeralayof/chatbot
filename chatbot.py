@@ -1,6 +1,8 @@
 from chatterbot import ChatBot
 from trainer import ChatbotTrainer
 
+#chatbot.py
+
 class Chatbot:
 
     def __init__(self,chatbotName,fileName):
