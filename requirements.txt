@@ -9,6 +9,7 @@ cmake==3.26.0
 coqpit==0.0.17
 cPython==0.0.6
 cymem==2.0.7
+Cython==0.29.33
 filelock==3.10.0
 Flask==2.2.3
 Flask-Cors==3.0.10
